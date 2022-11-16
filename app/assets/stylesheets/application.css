@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+  margin: 20px;
+  padding: 20px;
+ }
+
+ .review_all {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 700px;
+ }
+
+ .reviews {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 200px;
+ }
+
+ .center {
+  text-align: center;
+ }

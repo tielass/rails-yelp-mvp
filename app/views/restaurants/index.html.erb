@@ -1,0 +1,7 @@
+<div class="review_all">
+  <h1>Welcome to Restaurants</h1>
+  <% @restaurants.each do |restaurant| %>
+  <p class="border-top"><%= link_to "#{restaurant.name}", restaurant_path(restaurant) %></p>
+  <%= render "review", reviews: restaurant.reviews %>
+  <% end %>
+</div>
